@@ -1,0 +1,66 @@
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #555555;
+  margin: 20px 0px 15px;
+  text-align: center;
+}
+
+.mainPanel {
+	margin: 0px auto;
+}
+.rightPanel {
+	float: right;
+}
+.moviesPanel {
+	float: left;
+}
+.topRatedPanel {
+	margin: 0px auto 20px;
+}
+.categoriesPanel {
+	margin: 0px auto;
+/* 	text-align: center; */
+/* 	position: absolute; */
+}
+
+.listLabel {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0px auto 5px;
+}
+
+.movieList, .topMoviesList, .topCategoryMoviesList {
+  border: 2px solid silver;
+}
+
+.listHeader {
+	color: #D50000;
+	font-weight: bold;
+	background-color: #DDDDDD;
+	text-transform: uppercase;
+}
+
+.listHeaderColumn {
+	min-width: 100px;
+}
+
+.addPanel {
+	width: 400px;
+	margin: 0px auto;
+}
+
+.addLabel {
+	margin: 0px 0px 5px;
+	font-weight: bold;
+}
+
+.addPanel-input, .addButton {
+	float: right;
+}
+
+.noticeLabel {
+	font-size: 0.8em;
+	font-style: italic;
+	margin: 2px 10px;
+}

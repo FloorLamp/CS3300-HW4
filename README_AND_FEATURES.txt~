@@ -1,0 +1,18 @@
+superuser: admin
+password: admin
+
+url: http://127.0.0.1:8000/
+admin url: http://127.0.0.1:8000/admin/
+
+Database: SQLite3
+Database file: moviesdb
+
+Both the database path and static files path should be generated automatically. If it breaks, change settings.py WORKING_DIR to the absolute path of MovieRatings.
+
+Project was developed and tested on Ubuntu 11.10, using Firefox 11.
+
+FEATURES:
+
+My main new feature is the ability to edit movies. Each row in the movies table has an additional edit button, that when clicked, changes the fields in that row to textboxes. The edit button also changes to cancel and save buttons. Canceling the edit will revert the row to its' original values, while saving will update the table to the new values and also update the other two tables. This enhances the user experience because it allows them to fix misspelled movies, or change their rating, etc.
+
+Other minor features include a total movie count and movie counts for each category. Top rated movies, top movie in category, average rating, and movie counts per category are all provided from RPC calls instead of being calculated client-side. Instead of refreshing the browser periodically to update changes in the database, every add, delete or edit action will refresh data.
